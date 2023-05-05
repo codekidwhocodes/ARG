@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Phone Booth</title>
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+</head>
+<body>
+    <h1>Welcome to the Phone Booth!</h1>
+    <p>Welcome!</p>
+    <div>
+    <p>Contact Registered s̵̶̷̨̨̺̞͈̯͇̍̐͠e̸̶̵̮̮͌͐̾̂̏̄̎̕x̵̶̸͇̮̩̖͙͓̆͐͆͆͒̚ ̶̬̜̮͆̋̎͝ơ̷̶̸̪̣̥͚̞̞̍̍̽̊̕f̵̶̴̡̞̩̮̼̳̊̀͂͌̄̊̃̐͜͠f̴̶̴͈̮̩̥͙͉̽̃͜͝ḙ̶̶̸̢͖̐̌͊͠n̴̶̷͔̭̣͈͍̿͊̎̀́d̶̶̴̡̢̲͖͍͉̫̩̘̓͒̑̌͒̅̄͠e̴̶̴̳̣̲̼̻̊̈́r̷̶̷̢͔̩̠̦͇̠̓̈́̒̔̇͜s̶̶̷͇̹̪̄͒̉̅́̒̋͝ψ Phone Numbers</p>
+    <br>
+    </br>
+    <br>
+    </br>
+    <input id="text_a" type="text;" />
+    <p id="answer"></p>
+    <button onclick="myFunction()">Contact</button>
+
+    <script>
+    function myFunction()
+    {
+    var a=document.getElementById("text_a").value;
+
+    if (a=="876-214-1924")
+     {
+    document.getElementById("answer").innerHTML="Contacting Suicidal Prevention Lifeline...";
+    document.getElementById("home").onclick = function () {
+        location.href = "suici.html";
+    };
+      }
+    else
+      {
+    document.getElementById("answer").innerHTML="Sorry, not a valid number.";
+     }
+    }
+    </script>
+    </script>
+    <button id = "phone">Go to Home</button>
+    <script type="text/javascript">
+        document.getElementById("phone").onclick = function () {
+            location.href = "index.html";
+    };
+    </script>
+    </div>
+</body>
